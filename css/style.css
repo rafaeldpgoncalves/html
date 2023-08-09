@@ -1,0 +1,248 @@
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #barraMenu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#divPerfil{
+    display: inline-grid;
+    justify-items: center;
+  margin: 0px 0px 8px;
+  padding: 5px;
+}
+
+#divUnidades{
+  align-self: self-end;
+  margin: 0px 0px 8px;
+}
+#cbUnidades{
+width: 100px;
+
+}
+#tbTarefas{
+  box-shadow:  5px 4px 22px rgba(0, 0, 0, 0.5)
+
+
+}
+
+#btnAprovarPendente{
+  /* background-color: rgb(148, 155, 148); */
+    color: Black(17, 16, 16, 0.089);
+    border-radius: 8px;
+    width: 7rem;
+  }
+
+#btnAprovar{
+background-color: green;
+  color: white;
+  border-radius: 8px;
+  border-color: #1111113b;
+
+  width: 7rem;
+}
+
+#btnSelecionar{
+  background-color: rgba(223, 219, 219, 0.24);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+  border-color: #1111113b;
+    width: 7rem;
+  }
+
+#btnReprovar{
+background-color: red;
+color: white;
+font-weight: 400;
+border-radius: 8px;
+border-color: #1111113b;
+
+  width: 5rem;
+  font-size: 13px;
+}
+
+#btnReprovarNfoco{
+  background-color: white;
+  color: red;
+  font-weight: 400;
+  border-radius: 8px;
+  border-color: #1111113b;
+
+    width: 5rem;
+    font-size: 13px;
+  }
+
+#div01{
+  text-align: center;
+}
+
+#div02{
+  text-align: center;
+}
+
+
+#colStatus{
+  text-align: center;
+  width: 250px;
+}
+
+#colPedido{
+  background-color: rgba(214, 214, 214, 0.664);
+  /* box-shadow: black */
+}
+
+#imgCarregar{
+  width: 30px;
+}
+#btnPedido{
+  width: 100px;
+  box-shadow: 1px 1px 2px 0px #888888;
+  border-radius: 8px;
+  background-color: white;
+  border-color: #1111113b
+}
+
+#Icone{
+  width: 100px;
+  box-shadow: 1px 1px 2px 0px #888888;
+  border-radius: 8px;
+  background-color: white;
+  border-color: #1111113b
+}
+
+#colVeiculo{
+  justify-items: center;
+  text-align: center;
+  width: 100px;
+  /* background-color: white; */
+  border-radius: 12px;
+  height: 3.5rem;
+  width: 130px;
+}
+
+
+#divRecomend{
+  align-self: self-end;
+}
+#iconeMenu{
+  display: flex;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#divButton{
+  background-color: white;
+    border-radius: 12px;
+    height: 3.5rem;
+    width: 130px;
+    
+}
+
+#divBarraVeiculos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 0px 8px;
+}
+.emAtraso{
+  background-color: rgba(255, 0, 0, 0.377) !important;
+}
+
+.noPrazo{
+  background-color: rgba(20, 127, 189, 0.377) !important;
+}
+
+.inSucesso{
+  background-color: rgba(244, 248, 11, 0.616) !important;
+}
+
+.Sucesso{
+  background-color: rgba(11, 160, 11, 0.651) !important;
+}
+
+.Prioridade{
+  background-color: rgba(248, 170, 1, 0.644) !important;
+}
+
+#barraSuperior{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#divButtonVeiculo{
+  background-color:   #00000029;
+  display: grid;
+    border-radius: 12px;
+    height: 3.5rem;
+    width: 130px;
+    
+}
+
+#btnSVG{
+  border: none;
+    background-color: transparent;
+}
+
+#lupa{
+  background-color: #01579b99;
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    width: 113px;
+    border: 2px solid;
+    border-color: #1111113b;
+
+}
+
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  body{
+    padding: 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
